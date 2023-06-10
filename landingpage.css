@@ -1,0 +1,211 @@
+#about{
+    color:lightskyblue;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+#btn{
+    color:black;
+    font-weight: bold;
+    background-color:azure;
+    width:200px;
+    height:50px;
+    letter-spacing: 2%;
+    border-radius:20px;
+}
+#btn:hover{
+    background-color:rgb(255, 71, 77);
+}
+ul li{
+    display:inline-block;
+    margin-top:10px;
+    margin-left:30px;
+    box-shadow: 3px 2px 3px lightskyblue;
+    background-color: transparent;
+    color: rgb(153, 38, 84);
+font-size: 25px;
+ font-weight: 20px;   
+padding:2px;     }
+.nav-color{
+    background-color:lightblue;
+    color:blue;
+    font-weight: bold;
+    font-size: medium;
+    height:50px;
+    padding:2px;
+}
+ul li:hover{
+    box-shadow: 2px 2px 2px purple;
+}
+a{
+    text-decoration: none;
+}
+.about img{
+   
+background-image: url('https://www.udacity.com/blog/wp-content/uploads/2021/01/Become-a-full-stack-web-developer_Blog-scaled.jpeg'); 
+width:1300px;
+height:700px;
+background-repeat: no-repeat;
+background-size: cover;
+opacity:25%;
+
+}
+.about {
+position: relative;
+}
+
+.info{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
+}
+
+.info h1 {
+font-size:100px;
+margin-bottom: 10px;
+color:rgb(70, 70, 163);
+}
+
+.info p {
+font-size:medium;
+color:black;
+}
+.info{
+background-color: transparent;
+}
+.info span{
+font-style: italic;
+font-weight: bold;
+}
+#para{
+font-style: italic;
+font-weight: bold;
+}
+#r{
+margin-left:270px;
+}
+#f{
+margin-left:10px ;
+}
+#register form {
+box-shadow: 1px 1px 3px grey;
+width:40%;
+height:90%; 
+margin-left:400px;    
+}
+#Login form{
+box-shadow: 1px 1px 3px grey;
+width:40%;
+height:40%;
+margin-left:400px;    
+}
+#form-input input{
+width:50%;
+padding: 12px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+margin-left:80px;
+}
+input[type="submit"] {
+background-color:#125688;
+color: white;
+padding: 12px 20px;
+margin: 20px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+input[type="submit"]:hover{
+background-color: #bb0000;
+}
+#inf{
+font-size:20px;
+font-style:italic;
+color:black;
+}
+#certificate img{
+margin-left:150px;
+}
+#certificate h1{
+color:purple;
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+}
+#certificate p{
+color:brown;
+font-size:20px;
+text-align: center;
+}  
+body{
+background-color:azure;
+}
+#certificate img{
+opacity: 60%;
+}
+#skills img{
+width:150px;
+height:150px;
+}
+h1 {
+text-align: center;
+}
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 35px;
+height:20px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+text-align: center;
+}
+
+.fa:hover {
+opacity: 0.7;
+background-color:black;
+font-size:40px;
+width:50px;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+#hi{
+height:40px;
+width:30px;
+border-radius: 50%;
+}
+#contact{
+margin-left: 450px;
+margin-right: auto;
+justify-content: space-around;
+}
